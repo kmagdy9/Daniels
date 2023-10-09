@@ -1,0 +1,655 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.maincolor{
+    color: #0078FF;
+    
+}
+
+/*******************************Navbar CSS*************************/
+
+.navbar{
+
+    background-color: rgba(0, 0, 0, 0.866);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .address{
+    color: white !important;
+    font-size: 26px;
+    margin-top: 10px; 
+}
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar .nav-link{
+    color: white !important;
+    margin-right: 10px;  
+    margin-top: 10px; 
+}
+
+.navbar .nav-link:hover{
+    border-bottom: 3px solid white ;
+    
+}
+
+.navbar .dropdown-item{
+    transition: 0.5s;
+}
+.navbar .dropdown-item:hover{
+    color: #0078FF;
+}
+
+
+ .navbar .active{
+    
+    border-bottom: 3px solid white ;
+    
+    
+} 
+
+/*******************************Home CSS**************************/
+
+#home{
+    
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.575) , rgba(0, 0, 0, 0.575)) , url("../images/bg.jpg")  ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#home .container{
+    /* background-color: red; */
+    min-height: 100dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .container .caption{
+
+    /* background-color: brown; */
+    color: white;
+    text-align: center;
+}
+
+#home .container .caption h5{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#home .container .icon i {
+
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+#home .caption {
+    color: var(--white);
+    text-align: center;
+    /* font-family: var(--bs-body-font-family); */
+    font-family: var(--bs-body-font-family);
+
+}
+
+#home .caption span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    
+}
+
+
+
+#home .caption .auto-type {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px ;
+    font-weight: 400 ;
+}
+/*******************************About CSS************************/
+
+#about{
+
+    background-color: white;
+    padding: 80px 0;
+    /* background-color: blue; */
+}
+
+#about .container{
+    
+    padding-bottom: 70px;
+}
+
+#about .container .col1{
+    /* background-color: brown; */
+}
+
+#about .container .col2{
+    /* background-color: yellow; */
+}
+#about .container .col2 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color:#343434;
+}
+
+#about .container .col2 span{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
+
+#about .container .col2 p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #748182;
+}
+
+#about .container .col2 .Jerry{
+    font-weight: 700;
+}
+
+#about .container .col2 .skills .skills-progress h6{
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+#about .container .col2 .skills .skills-progress{
+
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    position: relative;
+}
+
+#about .container .col2 .skills .skills-progress span{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+}
+
+
+#about .container .col2 .skills .item1::after{
+
+    content: '95%';
+    width: 63px;
+    height: 26px;
+    position: absolute;
+    top: 5px;
+    right: 0%;
+    color: white;
+    
+}
+
+#about .container .col2 .skills .item2::after{
+
+    content: '80%';
+    width: 63px;
+    height: 26px;
+    position: absolute;
+    top: 5px;
+    right: 15%;
+    color: white;
+    
+}
+
+#about .container .col2 .skills .item3::after{
+
+    content: '90%';
+    width: 63px;
+    height: 26px;
+    position: absolute;
+    top: 5px;
+    right: 6%;
+    color: white;
+}
+
+#about .container .col2 .buttons button{
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#about .container .col2 .buttons .b1{
+    background-color: #1c1c1c;
+    color: white;
+    transition: 0.5s;
+    padding: 5px 20px;
+}
+
+#about .container .col2 .buttons .b1:hover{
+    background-color: white;
+    color: black;
+}
+
+#about .container .col2 .buttons .b2{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    padding: 5px 20px;
+}
+
+#about .container .col2 .buttons .b2:hover{
+    background-color: #1c1c1c;
+    color: white;
+}
+/*******************************Services CSS***********************/
+#services{
+
+     background-color: #F5F5F5; 
+     padding: 80px 0;
+}
+#services h3{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#services .container{
+
+    padding-top: 30px;
+
+
+}
+#services .container .info{
+
+    padding: 40px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+#services h6{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#services p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#748182 ;
+}
+
+
+#services .container i{
+
+    background-color: #F7F7F7;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    color: black;
+    transition: 0.5s;
+}
+
+#services .container .info:hover i{
+
+    background-color: black;
+    color: white;
+}
+
+/*------------------------Portfolio CSS-----------------------*/
+
+#portfolio{
+    padding: 80px 0;
+}
+
+#portfolio h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#portfolio .nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 16px;
+    font-weight: 1000;
+    color: black;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#portfolio .container .content{
+    background-color:transparent;
+    position: absolute;
+    top: 150%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    z-index: 99;
+}
+
+#portfolio .container .inner:hover .content{
+    top: 50%;
+}
+
+#portfolio .container .layer{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    opacity: 0;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+#portfolio .container .inner:hover .layer{
+    opacity: 1;
+}
+
+#portfolio .container .content i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#portfolio .container .content i:hover{
+
+    background-color: white;
+    color: black;
+}
+/*---------------------------Carousel--------------------------*/
+
+#carousel{
+
+
+    padding: 100px 0;
+    background-color: #F7F7F7;
+}
+#carousel .container{
+    padding: 0 30px;
+}
+#carousel h3{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#carousel .container .image  {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#carousel .container .image img{
+    height: 90px;
+    width: 90px;
+}
+
+#carousel .container .caption{
+    text-align: center;
+    
+}
+#carousel .container .caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #748182;
+}
+#carousel .container .caption h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #343434;
+}
+#carousel .container .caption span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+}
+#carousel .container .buttons{
+
+    text-align: center;
+}
+
+#carousel .container .buttons button{
+
+    border: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #D6D6D6;
+}
+
+ /* #carousel .container .buttons button.active{
+    background-color: black;
+}  */
+
+
+/*-------------------------Counter CSS--------------------------*/
+
+#counter{
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 90px 0;
+}
+
+#counter .info {
+
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+#counter .info i{
+
+    background-color: transparent;
+    font-size: 32px;
+    padding: 20px;
+}
+
+/*--------------------------Work CSS------------------------------*/
+#team{
+    background-color: #F5F5F5;
+    padding: 80px 0;
+}
+#team h3{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+#team .container{
+
+    padding-top: 30px;
+}
+#team .container .info{
+    border: none;
+}
+#team .container .image img{
+
+    transition: 0.5s;
+}
+
+#team .container .info .image{
+    overflow: hidden;   
+}
+#team .container .info:hover img{
+
+   scale: 1.1;
+}
+
+
+
+#team .container .card-body {
+    background-color: #5B5B5B;
+}
+
+#team .container .card-body h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+#team .container .card-body h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+#team .container .content{
+    background-color: rgba(255, 255, 255, 0.871);
+    position: absolute;
+    height: 98%;
+    top: 150%;
+    left: 6px;
+    right: 6px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+#team .container .info:hover .content{
+    top: 50%;
+    /* transform: rotateX(360deg); */
+}
+
+#team .container .content .icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#team .container .content i{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#team .container .content i:hover{
+
+    background-color: white;
+    color: black;
+}
+/*----------------------Contact CSS---------------------------*/
+
+#contact{
+    padding: 80px 0;
+}
+
+#contact .container{
+
+    background-color: white;
+    padding: 50px 110px;
+}
+
+#contact h3{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#contact .container .row1 .icon i{
+    font-size: 25px;
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#contact .container .row1 .icon i:hover{
+    background-color: black;
+    color: white;
+}
+
+#contact .container .row1 .info h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#contact .container .row1 .info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #748182;
+}
+
+#contact .container .row2 input{
+
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+#contact .container .row2 textarea{
+
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+#contact .container .row2 .button button{
+
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+#contact .container .row2 .button button:hover{
+    background-color:white ;
+    color: black;
+}
+
+/*--------------------End CSS------------------------------*/
+
+#end{
+    background-color: #1C1C1C;
+    padding: 20px 0;
+}
+
+#end span{
+    font-weight: bold;
+}
